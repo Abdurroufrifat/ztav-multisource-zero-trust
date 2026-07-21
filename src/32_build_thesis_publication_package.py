@@ -1,14 +1,4 @@
 """Build a manuscript-ready evidence package from the frozen Step 31 result.
-
-This is a read-only reporting stage.  It does not train or score a model,
-change a threshold, rerun confirmation, invoke SUMO, or modify any existing
-result.  It verifies the frozen evidence hashes and creates tables, figures,
-claim/hypothesis matrices, limitations, reproducibility information, and
-thesis/IEEE-SCI writing plans in one new timestamped directory.
-
-Run from D:\\ztav_project::
-
-    .\\.venv\\Scripts\\python.exe .\\src\\32_build_thesis_publication_package.py
 """
 
 from __future__ import annotations

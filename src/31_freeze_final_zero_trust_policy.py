@@ -5,12 +5,6 @@ already-generated result files, records the selected policy components, hashes
 the evidence, and explicitly excludes ROAD and GEM-CAN candidates that failed
 their predeclared readiness criteria.  Step 30G authorization is mandatory.
 
-Run from D:\\ztav_project:
-    .\\.venv\\Scripts\\python.exe .\\src\\31_freeze_final_zero_trust_policy.py
-
-Outputs:
-    results/final_zero_trust_policy/
-
 This is a research prototype freeze, not production automotive software.
 """
 
