@@ -15,12 +15,6 @@ attack micro-windows and measures:
 Attack labels are used only to construct the controlled poisoning experiment
 and to evaluate decisions.  They are not used to fit the gate threshold or the
 startup-consistency guard.
-
-Run from D:\\ztav_project after Step 21:
-
-    .\\.venv\\Scripts\\python.exe src\\22_multiscale_startup_poisoning_stress.py
-
-This is an exploratory stress test, not production automotive software.
 """
 
 from __future__ import annotations

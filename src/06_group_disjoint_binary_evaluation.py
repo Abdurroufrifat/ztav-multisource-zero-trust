@@ -6,8 +6,6 @@ one partition. Each class receives at least one unique signature in train,
 validation, and test. This removes the exact cross-partition overlap detected
 in the chronological baseline.
 
-Place in D:\\ztav_project\\src and run from D:\\ztav_project:
-    .\\.venv\\Scripts\\python.exe src\\06_group_disjoint_binary_evaluation.py
 """
 
 from __future__ import annotations

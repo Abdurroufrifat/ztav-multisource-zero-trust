@@ -15,16 +15,6 @@ Identity, device posture and CAN evidence are explicit research-testbed
 baselines; they are not measurements from production automotive hardware.  A
 later stage will inject attacks and connect the trained CAN classifier.
 
-Run from the project root (for example, D:\\ztav_project):
-
-    .\\.venv\\Scripts\\python.exe -m pip install traci sumolib
-    .\\.venv\\Scripts\\python.exe src\\07_build_sumo_context_testbed.py
-    .\\.venv\\Scripts\\python.exe src\\07_build_sumo_context_testbed.py --gui
-
-Expected project file:
-
-    ztav_phase0.py
-
 This is a research prototype, not production automotive safety software.
 """
 

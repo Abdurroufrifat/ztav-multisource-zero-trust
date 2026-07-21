@@ -26,10 +26,6 @@ This remains exploratory: the 10-window bootstrap and operational calibration
 target were chosen after inspecting HCRL.  Freeze the design and evaluate it on
 an independent capture before making a confirmatory generalization claim.
 
-Run from D:\\ztav_project after Step 16:
-
-    .\\.venv\\Scripts\\python.exe src\\17_session_normalized_can_gate.py
-
 This is a research prototype, not production automotive safety software.
 """
 

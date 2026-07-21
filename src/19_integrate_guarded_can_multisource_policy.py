@@ -16,12 +16,6 @@ detector and policy read evidence fields, never ``ground_truth_attack`` or
 The HCRL data and Step 17 gate are not an independent confirmatory test because
 the same external corpus informed the exploratory gate design.  SUMO context is
 simulated.  Treat this as a hybrid integration and ablation experiment.
-
-Run from D:\\ztav_project after Steps 10, 17, and 18:
-
-    .\\.venv\\Scripts\\python.exe src\\19_integrate_guarded_can_multisource_policy.py
-
-This is a research prototype, not production automotive safety software.
 """
 
 from __future__ import annotations

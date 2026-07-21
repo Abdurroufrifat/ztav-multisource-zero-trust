@@ -9,9 +9,6 @@ Models:
 
 Thresholds are selected using validation data only. The chronological test set
 is evaluated once with the selected thresholds.
-
-Place in D:\\ztav_project\\src and run from D:\\ztav_project:
-    python src/04_train_binary_baselines.py
 """
 
 from __future__ import annotations

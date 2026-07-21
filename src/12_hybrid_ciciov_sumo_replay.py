@@ -12,10 +12,6 @@ and replay windows still originate from CICIoV2024, and SUMO GNSS/V2X evidence
 is simulated. The original sensor-control consistency field is retained as a
 separate cross-source signal and identified in the manifest.
 
-Run from D:\\ztav_project after Steps 06, 09 and 10:
-
-    .\\.venv\\Scripts\\python.exe src\\12_hybrid_ciciov_sumo_replay.py
-
 This is a research prototype, not production automotive safety software.
 """
 

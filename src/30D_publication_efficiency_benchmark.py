@@ -6,9 +6,6 @@ any security component. It measures inference over already-engineered feature
 and evidence rows. Raw CAN parsing, feature extraction, sensor acquisition,
 network transport, and embedded-ECU execution are outside scope.
 
-Run from D:\ztav_project after Steps 30A--30C:
-
-    .\.venv\Scripts\python.exe .\src\30D_publication_efficiency_benchmark.py
 """
 
 from __future__ import annotations

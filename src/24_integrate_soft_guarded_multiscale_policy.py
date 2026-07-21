@@ -16,12 +16,6 @@ warning:
 The script compares this soft policy with the rejected hard-guard policy, the
 100-frame policy, CAN-only multiscale detection, and context-only detection.
 The Step 21 thresholds and Step 23 guard scores remain frozen.
-
-Run from D:\\ztav_project after Steps 21 and 23:
-
-    .\\.venv\\Scripts\\python.exe src\\24_integrate_soft_guarded_multiscale_policy.py
-
-This is an exploratory hybrid HCRL/SUMO evaluation, not production software.
 """
 
 from __future__ import annotations

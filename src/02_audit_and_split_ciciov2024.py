@@ -1,12 +1,6 @@
 #!/usr/bin/env python3
 """Audit repeated CICIoV2024 CAN frames and create a leakage-safe split manifest.
 
-Place in:
-    D:\\ztav_project\\src\\02_audit_and_split_ciciov2024.py
-
-Run from D:\\ztav_project:
-    python src/02_audit_and_split_ciciov2024.py
-
 Why this stage is necessary:
     The dataset contains many repeated CAN packets. A random row split can put
     identical feature vectors in both training and testing data. This script

@@ -12,9 +12,6 @@ It does not load the model, calculate predictions, tune a threshold, run SUMO,
 or permit Step 31.  The lock is single-use: if a lock already exists, this
 script refuses to create a competing protocol.
 
-Run from ``D:\\ztav_project`` only after Step 30F0 succeeds:
-
-    .\\.venv\\Scripts\\python.exe .\\src\\30F1_freeze_gem_can_confirmation_protocol.py
 """
 
 from __future__ import annotations

@@ -17,16 +17,6 @@ The HCRL corpus itself is not a new external dataset.  This is therefore a
 strict internal confirmation using unseen HCRL windows and unseen SUMO seeds.
 The negative frozen ROAD result remains the independent external evidence.
 
-Run once from D:\\ztav_project after Steps 30A--30D2 and 30C2:
-
-    .\\.venv\\Scripts\\python.exe .\\src\\30E_untouched_final_confirmation.py
-
-If a technical interruption occurs, use the exact same script and:
-
-    .\\.venv\\Scripts\\python.exe .\\src\\30E_untouched_final_confirmation.py --resume
-
-Do not run Step 31 until the Step 30E outputs and a fresh Step 30A audit have
-been reviewed.  This is research software, not production vehicle software.
 """
 
 from __future__ import annotations

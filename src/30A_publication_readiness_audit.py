@@ -1,13 +1,8 @@
-"""Read-only publication-readiness audit for the ZTAV research project.
-
+"""
 The script never trains a model, changes a threshold, edits a prior result, or
 modifies data. It reads the existing project and writes a new timestamped audit
 under results/publication_readiness_audit/.
 
-Run from D:\\ztav_project:
-    .\\.venv\\Scripts\\python.exe .\\src\\30A_publication_readiness_audit.py
-
-Do not run Step 31 until this audit and Steps 30B-30E have been reviewed.
 """
 
 from __future__ import annotations

@@ -5,12 +5,6 @@ This additive audit preserves the original Step 30D run. It reuses the frozen
 model/evidence inputs, extends each workload to a stable measurement interval,
 and records process working-set memory without requiring psutil on Windows.
 
-Run from D:\ztav_project after Step 30D:
-
-    .\.venv\Scripts\python.exe .\src\30D2_publication_resource_completion.py
-
-No detector is trained or recalibrated. Raw CAN parsing, feature engineering,
-sensor/network I/O, SUMO runtime, and embedded-ECU execution remain excluded.
 """
 
 from __future__ import annotations

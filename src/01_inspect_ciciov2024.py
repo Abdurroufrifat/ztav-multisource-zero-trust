@@ -1,14 +1,7 @@
 #!/usr/bin/env python3
-"""Inspect the six CICIoV2024 decimal CSV files without changing them.
-
-Place this script in:
-    D:\\ztav_project\\src\\01_inspect_ciciov2024.py
-
+"""
 Expected dataset directory:
     D:\\ztav_project\\data\\ciciov2024\\decimal
-
-Run from the VS Code terminal opened at D:\\ztav_project:
-    python src/01_inspect_ciciov2024.py
 
 Outputs:
     results/ciciov2024_file_summary.csv

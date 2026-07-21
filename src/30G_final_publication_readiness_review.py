@@ -1,15 +1,10 @@
-"""Final, read-only publication and bounded-freeze readiness review.
-
+"""
 This stage reconciles the development, falsification, efficiency, ROAD, and
 locked GEM-CAN evidence before Step 31.  A failed external confirmation is not
 converted into a pass: it is retained as a claim boundary.  The only possible
 authorization is a bounded research-prototype freeze for thesis/publication;
 external generalisation, universal source robustness, production readiness,
 and safety certification remain prohibited.
-
-Run from D:\\ztav_project::
-
-    .\\.venv\\Scripts\\python.exe .\\src\\30G_final_publication_readiness_review.py
 
 The script does not train, score, recalibrate, simulate, or modify any existing
 project artifact.  It writes one new timestamped results directory.

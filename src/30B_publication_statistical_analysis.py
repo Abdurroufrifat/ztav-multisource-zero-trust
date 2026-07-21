@@ -1,15 +1,9 @@
-"""Publication-grade statistical analysis for the ZTAV research project.
-
+"""
 This script is additive and read-only with respect to existing artifacts. It
 uses independent replay units (seed x external source x density), not windows,
 for confidence intervals and paired comparisons. It never trains a model or
 changes a threshold.
 
-Run from D:\\ztav_project:
-    .\\.venv\\Scripts\\python.exe .\\src\\30B_publication_statistical_analysis.py
-
-Outputs are written to a new timestamped directory under:
-    results/publication_statistical_analysis/
 """
 
 from __future__ import annotations

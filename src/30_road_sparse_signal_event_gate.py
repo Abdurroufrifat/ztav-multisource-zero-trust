@@ -14,11 +14,6 @@ maximum/top-event evidence while preserving the important leakage controls:
 * The primary rule is predeclared here as an instantaneous maximum-event rule;
   it is intended to trigger VERIFY/RESTRICT, not a hard safety fallback.
 
-Run from D:\\ztav_project after Step 29:
-
-    .\\.venv\\Scripts\\python.exe src\\30_road_sparse_signal_event_gate.py
-
-This is a research prototype, not production automotive safety software.
 """
 
 from __future__ import annotations

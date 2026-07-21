@@ -12,11 +12,6 @@ level, deterministic, and global across HCRL source files.  No model fitting or
 feature scaling is performed here.  A calibrated result must therefore be
 reported as external calibration, never as zero-shot performance.
 
-Run from D:\\ztav_project after Step 13:
-
-    .\\.venv\\Scripts\\python.exe src\\14_external_domain_shift_and_calibration.py
-
-Outputs are written below results\\external_domain_shift_calibration.
 This is a research prototype, not production automotive safety software.
 """
 

@@ -16,12 +16,6 @@ This diagnostic repeats the exact Step 19 replay and fixed thresholds twice:
 No threshold is fitted or changed.  This is a counterfactual/falsification
 audit, not an independent test.  It must be completed before freezing the
 integrated policy for confirmatory evaluation.
-
-Run from D:\\ztav_project after Step 19:
-
-    .\\.venv\\Scripts\\python.exe src\\20_physical_vehicle_state_counterfactual.py
-
-This is a research prototype, not production automotive safety software.
 """
 
 from __future__ import annotations

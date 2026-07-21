@@ -16,10 +16,6 @@ The poisoning is counterfactual resampling, not a real captured startup attack.
 Treat every result as exploratory.  Confirm the frozen guard on an independent
 capture containing genuine startup attacks or a controlled testbed injection.
 
-Run from D:\\ztav_project after Step 17:
-
-    .\\.venv\\Scripts\\python.exe src\\18_startup_baseline_poisoning_stress.py
-
 This is a research prototype, not production automotive safety software.
 """
 

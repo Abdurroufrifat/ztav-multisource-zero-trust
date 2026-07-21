@@ -15,11 +15,6 @@ captures have no clean injection interval (the compromised state spans the
 capture), so they are reported separately as compromised-start negative
 controls.  Ambient captures are used only to measure false alarms.
 
-Run from D:\\ztav_project after extracting ROAD to data\\external\\road\\road:
-
-    .\\.venv\\Scripts\\python.exe src\\28_road_frozen_external_confirmation.py
-
-This is a research prototype, not production automotive safety software.
 """
 
 from __future__ import annotations

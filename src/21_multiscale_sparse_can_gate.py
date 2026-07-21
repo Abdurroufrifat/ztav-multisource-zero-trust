@@ -26,15 +26,6 @@ fitting, threshold calibration, or detector decisions.
 This is exploratory HCRL development, not independent validation.  If the
 micro-gate improves sparse recall, it still requires poisoning stress and a new
 dataset/capture before the final policy is frozen.
-
-Run from D:\\ztav_project after Steps 17 and 20:
-
-    .\\.venv\\Scripts\\python.exe src\\21_multiscale_sparse_can_gate.py
-
-The first run builds a reusable w20 structural cache and can take several
-minutes.  Later runs reuse that cache unless ``--rebuild-cache`` is supplied.
-
-This is a research prototype, not production automotive safety software.
 """
 
 from __future__ import annotations

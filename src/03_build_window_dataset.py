@@ -1,12 +1,6 @@
 #!/usr/bin/env python3
 """Build non-overlapping, chronological CICIoV2024 CAN-message windows.
 
-Place in:
-    D:\\ztav_project\\src\\03_build_window_dataset.py
-
-Run from D:\\ztav_project:
-    python src/03_build_window_dataset.py
-
 Optional window-size experiment:
     python src/03_build_window_dataset.py --window-size 50
 

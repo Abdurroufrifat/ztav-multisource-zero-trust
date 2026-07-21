@@ -1,17 +1,9 @@
 #!/usr/bin/env python3
-"""Step 30C2: source-observability and publication-claim boundary audit.
-
+"""
 This additive audit explains the negative Step 30C results without changing a
 model, threshold, policy, dataset, or prior result. It tests whether attack and
 benign rows become observationally indistinguishable when one source falsely
 reports healthy and no quality warning is available.
-
-Run from D:\\ztav_project after Step 30C:
-
-    .\\.venv\\Scripts\\python.exe .\\src\\30C2_publication_observability_claim_audit.py
-
-Step 31 remains blocked. This is development/claim-boundary evidence, not a
-replacement for the untouched Step 30E confirmation.
 """
 
 from __future__ import annotations

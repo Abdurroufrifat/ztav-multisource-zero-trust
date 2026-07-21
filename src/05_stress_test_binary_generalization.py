@@ -5,9 +5,6 @@ This stage performs three checks:
 1. Exact engineered-window feature overlap across train/validation/test.
 2. Leave-one-attack-type-out (LOAO) detection of completely unseen attacks.
 3. A shuffled-label sanity test that should fall near chance.
-
-Place in D:\\ztav_project\\src and run from D:\\ztav_project:
-    .\\.venv\\Scripts\\python.exe src\\05_stress_test_binary_generalization.py
 """
 
 from __future__ import annotations

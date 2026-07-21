@@ -16,15 +16,6 @@ decisions (safety-critical actuator control and non-critical telemetry), and
 row-level detection metrics.  These attacks are simulation abstractions, not
 production exploit implementations.
 
-Run from D:\\ztav_project:
-
-    .\\.venv\\Scripts\\python.exe src\\08_run_sumo_attack_experiments.py \
-        --rebuild-scenario
-
-Optional visualization:
-
-    .\\.venv\\Scripts\\python.exe src\\08_run_sumo_attack_experiments.py --gui
-
 This is a research prototype, not production automotive safety software.
 """
 

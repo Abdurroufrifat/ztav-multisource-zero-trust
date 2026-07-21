@@ -23,10 +23,6 @@ also exploratory because HCRL results motivated the design.  Confirm the final
 gate on a separate unseen vehicle/capture before making a thesis claim about
 generalization.
 
-Run from D:\\ztav_project after Step 15:
-
-    .\\.venv\\Scripts\\python.exe src\\16_drift_aware_can_trust_gate.py
-
 This is a research prototype, not production automotive safety software.
 """
 

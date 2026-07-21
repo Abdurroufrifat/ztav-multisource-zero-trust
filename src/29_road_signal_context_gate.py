@@ -21,12 +21,6 @@ Leakage controls
   Accelerator captures have no clean attack interval and are reported as
   compromised-state controls, not included in the primary endpoint.
 
-Run from D:\\ztav_project:
-
-    .\\.venv\\Scripts\\python.exe src\\29_road_signal_context_gate.py
-
-The implementation is chunked and reservoir-bounded for a 16 GB workstation.
-It is a research prototype, not production automotive safety software.
 """
 
 from __future__ import annotations

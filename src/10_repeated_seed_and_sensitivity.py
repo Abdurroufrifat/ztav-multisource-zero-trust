@@ -11,16 +11,6 @@ It also evaluates a declared grid of source thresholds and persistence values.
 The grid is reported as a robustness analysis; it must not be described as an
 independent test-set optimization.
 
-Run from D:\\ztav_project:
-
-    .\\.venv\\Scripts\\python.exe src\\10_repeated_seed_and_sensitivity.py
-
-The default five runs use seeds 2027 through 2031.  To re-analyze already saved
-per-seed datasets without running SUMO again:
-
-    .\\.venv\\Scripts\\python.exe src\\10_repeated_seed_and_sensitivity.py \
-        --skip-simulation
-
 This is a research prototype, not production automotive safety software.
 """
 

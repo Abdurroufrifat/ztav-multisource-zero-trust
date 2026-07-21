@@ -14,10 +14,6 @@ Thus, 0.0 is the seed-specific healthy median and 1.0 is the full-strength
 observation generated in Step 08.  This is a robustness/ablation analysis, not
 a substitute for physical attack experiments and not an independent test set.
 
-Run from D:\\ztav_project after Step 10:
-
-    .\\.venv\\Scripts\\python.exe src\\11_attack_severity_sweep.py
-
 This is a research prototype, not production automotive safety software.
 """
 

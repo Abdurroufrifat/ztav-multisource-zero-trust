@@ -17,11 +17,6 @@ threshold selection on HCRL data. This is a genuine cross-dataset zero-shot
 test of the CAN subsystem. It does not externally validate the simulated
 GNSS/V2X/identity sources.
 
-Run from D:\\ztav_project:
-
-    .\\.venv\\Scripts\\python.exe src\\13_external_car_hacking_zero_shot.py
-
-The source files are read only. Processing is chunked for a 16 GB computer.
 This is a research prototype, not production automotive safety software.
 """
 

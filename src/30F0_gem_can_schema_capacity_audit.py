@@ -19,11 +19,6 @@ The audit:
 * separates high-density pooled feasibility from unsupported sparse and
   attack-family-specific claims.
 
-Run from ``D:\\ztav_project`` after placing the three readable CSV files below
-``data\\external\\gem_can\\extracted``:
-
-    .\\.venv\\Scripts\\python.exe .\\src\\30F0_gem_can_schema_capacity_audit.py
-
 This script always keeps Step 31 locked.  A failed sparse-capacity result is a
 dataset limitation, not a reason to synthesize confirmatory evidence.
 """

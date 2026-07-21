@@ -11,12 +11,6 @@ safe to rerun.  A failed capacity verdict is evidence about the dataset design;
 it must not be bypassed with replacement sampling and then described as an
 untouched confirmation.
 
-Run from ``D:\\ztav_project``:
-
-    .\\.venv\\Scripts\\python.exe .\\src\\30E0_hcrl_confirmation_capacity_audit.py
-
-Send the terminal result and ``hcrl_leakage_safe_capacity.csv`` before running
-Step 30E or Step 31.
 """
 
 from __future__ import annotations

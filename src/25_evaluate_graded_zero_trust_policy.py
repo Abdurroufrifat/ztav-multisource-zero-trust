@@ -18,12 +18,6 @@ Trust operating points:
 The vehicle-state-free enforcement policy is the primary endpoint.  The
 vehicle-state-inclusive policy is reported only as an ablation.  Startup guard
 rejection remains a quality warning and never becomes an attack label alone.
-
-Run from D:\\ztav_project after Step 24:
-
-    .\\.venv\\Scripts\\python.exe src\\25_evaluate_graded_zero_trust_policy.py
-
-No raw HCRL or SUMO data is rebuilt.  This is exploratory research software.
 """
 
 from __future__ import annotations

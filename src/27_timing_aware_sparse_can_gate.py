@@ -17,14 +17,6 @@ Scientific protocol
 * HCRL R/T flags are used only to calculate evaluation labels and metrics.
 * Results compare frozen CAN, structural, timing, and structural+timing fusion.
 
-Run from D:\\ztav_project after Steps 17 and 21:
-
-    .\\.venv\\Scripts\\python.exe src\\27_timing_aware_sparse_can_gate.py
-
-The first run builds a reusable timing cache and can take several minutes.
-Later runs reuse it unless ``--rebuild-cache`` is supplied.
-
-This is an exploratory research prototype, not production vehicle software.
 """
 
 from __future__ import annotations

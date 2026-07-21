@@ -18,12 +18,6 @@ metrics are then computed without changing the selected rule or thresholds.
 Vehicle-state context remains excluded from every primary policy.  Startup
 quality warnings never become attack alarms.  This script reuses Step 24 rows
 and does not rebuild HCRL or SUMO data.
-
-Run from D:\\ztav_project after Step 25:
-
-    .\\.venv\\Scripts\\python.exe src\\26_temporal_memory_sparse_can_confirmation.py
-
-This is exploratory research software, not production automotive software.
 """
 
 from __future__ import annotations

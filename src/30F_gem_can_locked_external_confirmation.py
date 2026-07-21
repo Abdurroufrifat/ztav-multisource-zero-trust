@@ -10,9 +10,6 @@ No training, calibration, threshold selection, window reselection, or SUMO
 execution is allowed.  Both passing and failing outcomes are retained.  A
 started or completed confirmation cannot be rerun by this script.
 
-Run from ``D:\\ztav_project``:
-
-    .\\.venv\\Scripts\\python.exe .\\src\\30F_gem_can_locked_external_confirmation.py
 """
 
 from __future__ import annotations

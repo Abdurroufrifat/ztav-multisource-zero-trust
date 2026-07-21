@@ -17,10 +17,6 @@ Because the ablations were designed after inspecting the first HCRL zero-shot
 result, treat this as exploratory diagnosis rather than a new confirmatory
 external validation.  A separate unseen capture is still required later.
 
-Run from D:\\ztav_project after Steps 13 and 14:
-
-    .\\.venv\\Scripts\\python.exe src\\15_feature_family_ablation.py
-
 This is a research prototype, not production automotive safety software.
 """
 

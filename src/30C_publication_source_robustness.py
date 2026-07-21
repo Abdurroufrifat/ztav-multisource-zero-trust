@@ -1,21 +1,9 @@
 #!/usr/bin/env python3
-"""Step 30C: publication source-robustness and policy-safety audit.
-
+"""
 This additive analysis replays the frozen Step 25 graded-policy decisions under
 predeclared source perturbations.  It does not train a model, choose a threshold,
 or overwrite an existing result.  The independent unit is one seed x external
 CAN capture x attack-density replay, not an overlapping window.
-
-Run from D:\\ztav_project after Steps 25 and 30B:
-
-    .\\.venv\\Scripts\\python.exe .\\src\\30C_publication_source_robustness.py
-
-Outputs are written to a new timestamped directory below:
-
-    results/publication_source_robustness/
-
-The experiment is development falsification evidence.  Step 30E remains the
-only untouched confirmation stage, and Step 31 must not be run after this script.
 """
 
 from __future__ import annotations

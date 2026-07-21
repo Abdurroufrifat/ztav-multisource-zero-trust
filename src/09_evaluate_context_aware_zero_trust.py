@@ -10,10 +10,6 @@ Important experimental rule: ``phase`` and ``ground_truth_attack`` are used
 only after each decision for evaluation.  The detector reads evidence columns,
 not attack labels.
 
-Run from D:\\ztav_project:
-
-    .\\.venv\\Scripts\\python.exe src\\09_evaluate_context_aware_zero_trust.py
-
 This is a research prototype, not production automotive safety software.
 """
 

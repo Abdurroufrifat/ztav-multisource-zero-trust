@@ -19,12 +19,6 @@ This confirmation stage corrects both problems:
 Attack labels are used only to construct controlled poisoning trials and to
 report sensitivity.  They are never used to fit the reference, score scales,
 or threshold.
-
-Run from D:\\ztav_project after Step 22:
-
-    .\\.venv\\Scripts\\python.exe src\\23_reference_anchored_startup_guard.py
-
-This is an exploratory research test, not production automotive software.
 """
 
 from __future__ import annotations
