@@ -2,8 +2,6 @@
 
 Research code and reproducibility materials for a **multi-source context-aware Zero Trust security framework for autonomous vehicles**.
 
-This repository contains the **July / Paper 1 project only**. It belongs to the original `D:\ztav_project` research line and must remain separate from later Paper 2 work.
-
 > **Research prototype:** This repository is for academic research and experimentation. It is not production automotive safety software and is not intended for vehicle certification or deployment.
 
 ## Research Problem
@@ -240,11 +238,7 @@ The final packaging stage prepares frozen evidence for a Master's thesis and jou
 
 ## Important Scope Note
 
-This repository represents the original **multi-source context-aware Zero Trust autonomous-vehicle research project developed in the July / Paper 1 line**.
-
-It does **not** contain the separate later Paper 2 project or its development workspace.
-
-Do not mix artifacts, results, scripts, evidence directories, or publication claims between the two projects.
+This repository represents the original **multi-source context-aware Zero Trust autonomous-vehicle research project developed in the July.
 
 ## Author
 
